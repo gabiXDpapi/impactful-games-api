@@ -33,5 +33,12 @@
         "hash": "$2b$12$wvhI0UepYzHLZz24AXIxHecs3wIoboGzbciecgu2bGZbrvDsaM9AK",
         "userLevel": 0,
         "createdAt": 1746177785
+    },
+    "jp12.": {
+        "id": "e8e29fd3-5f64-5ffe-bcee-9b4027a7666e",
+        "fullName": "john patweck",
+        "hash": "$2b$12$gEE4yZMOWUmvSDuUoc4PtOibNPvWEtyu7SoE58F7mY41s22BzLQju",
+        "userLevel": 0,
+        "createdAt": 1746178525
     }
 }
