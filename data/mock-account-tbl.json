@@ -1,0 +1,30 @@
+{
+    "jimmy9.": {
+        "id": "501871d4-bb0a-543e-b001-e4e945a87e66",
+        "fullName": "Jimmy Neutron",
+        "hash": "$2b$12$rSWnQeqxKlDDz215y6sQwOFk2PoNp2UsuyUgIECl.G5PcSi.u9xS2",
+        "userLevel": 0,
+        "createdAt": 1746176859
+    },
+    "nirvanaremix1.": {
+        "id": "6bc9d383-1d3a-555f-8f54-274ffe046b8f",
+        "fullName": "Nirvana Remix",
+        "hash": "$2b$12$KU13NnzTcAbFZX/VqsEGfunq2bXqPi8WJRN9QgTu0Q.7scALu.qF.",
+        "userLevel": 1,
+        "createdAt": 1746176926
+    },
+    "metallicahits3.": {
+        "id": "e5ecd674-ca26-5385-83b4-328c737d141a",
+        "fullName": "Metallica Hit Singles",
+        "hash": "$2b$12$YstMyjs3q1/OVw9xcHMM0es5wnbPgq58M5xIK/ryx5rGIa3UjYniS",
+        "userLevel": 2,
+        "createdAt": 1746176961
+    },
+    "blacksab3": {
+        "id": "23cf6220-9987-5241-ba44-88320e68f22c",
+        "fullName": "Black Sabbath",
+        "hash": "$2b$12$V6w8Ukx8v/6oOx7zCpE1R.4.MYKFXzbpLGYkmFg6b28jDgl.U0/My",
+        "userLevel": 3,
+        "createdAt": 1746177014
+    }
+}
