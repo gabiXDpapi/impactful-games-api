@@ -26,5 +26,12 @@
         "hash": "$2b$12$V6w8Ukx8v/6oOx7zCpE1R.4.MYKFXzbpLGYkmFg6b28jDgl.U0/My",
         "userLevel": 3,
         "createdAt": 1746177014
+    },
+    "digbigger32.": {
+        "id": "34e6ea03-c346-57a3-a47a-8758fa6e71cb",
+        "fullName": "Dig Bigger",
+        "hash": "$2b$12$wvhI0UepYzHLZz24AXIxHecs3wIoboGzbciecgu2bGZbrvDsaM9AK",
+        "userLevel": 0,
+        "createdAt": 1746177785
     }
 }
