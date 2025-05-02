@@ -1,6 +1,6 @@
 """
-ImpactfulGames-API v0.9.0
- (c) 2025 Kamotech Inc.
+ BleedingHeart-API v0.9.0
+ (c) 2025 Bidlisiw Inc.
 """
 import json
 import hashlib
@@ -9,7 +9,7 @@ import bcrypt
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 
-app = Flask("impactful-games-api")
+app = Flask("bleedingheart-api")
 CORS(app)
 
 @app.route("/")
@@ -26,12 +26,10 @@ def authorize():
     user_level = -1
     access_token = ""
     message = "Account not found."
-
     user_level, full_name = authorize_user(uname, pw)
     if 0 <= user_level <= 4:
         access_token = generate_access_token(uname, user_level)
         message = ""
-
     return set_cors({
         "accessToken": access_token,
         "userLevel": user_level,
@@ -59,7 +57,7 @@ def get_contents():
 
 @app.errorhandler(404)
 def page_not_found(e):
-    return set_cors({"message": "Page not found."})
+    return set_cors({"message":"Page not found."})
 
 ##################
 # utils #
@@ -76,9 +74,9 @@ def authorize_user(uname, pw):
     account = accounts[uname]
     hashed = account["hash"].encode()
 
-    if bcrypt.checkpw(pw.encode(), hashed):
+    if bcrypt.hashpw(pw.encode(), hashed):
         user_level = account["userLevel"]
-        full_name = account["fullName"]
+        full_name = account["FullName"]
         return user_level, full_name
 
     return -1, ""
