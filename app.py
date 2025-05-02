@@ -1,6 +1,6 @@
 """
- BleedingHeart-API v0.9.0
- (c) 2025 Bidlisiw Inc.
+ImpactfulGames-API v0.9.0
+ (c) 2025 Kamotech Inc.
 """
 import json
 import hashlib
@@ -9,7 +9,7 @@ import bcrypt
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 
-app = Flask("bleedingheart-api")
+app = Flask("impactful-games-api")
 CORS(app)
 
 @app.route("/")
