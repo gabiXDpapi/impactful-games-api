@@ -40,5 +40,12 @@
         "hash": "$2b$12$gEE4yZMOWUmvSDuUoc4PtOibNPvWEtyu7SoE58F7mY41s22BzLQju",
         "userLevel": 0,
         "createdAt": 1746178525
+    },
+    "gabi3.": {
+        "id": "99bf16ff-4ba2-5011-9249-e1b091c49836",
+        "fullName": "Gabi Papi",
+        "hash": "$2b$12$V9tBk1fz7EjLn10svQS.L.7YPv9ZFI15/Jb5ff2UcQ0oa1fiGQX8y",
+        "userLevel": 0,
+        "createdAt": 1746180388
     }
 }
